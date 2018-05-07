@@ -15,6 +15,7 @@ namespace DAL
         public SqlConnection GetSqlConnection()
         {
             //abcdefg
+            //new test
             SqlConnection sqlCnn = new SqlConnection(connStr);
             sqlCnn.Open();
             return sqlCnn;
