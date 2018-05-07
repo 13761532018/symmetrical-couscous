@@ -14,6 +14,7 @@ namespace DAL
         #region 配置数据库连接
         public SqlConnection GetSqlConnection()
         {
+            //abcdefg
             SqlConnection sqlCnn = new SqlConnection(connStr);
             sqlCnn.Open();
             return sqlCnn;
